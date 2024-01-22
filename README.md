@@ -1,1 +1,1 @@
-[![Victor Svirsky profile views](https://u8views.com/api/v1/github/profiles/1835494/views/day-week-month-total-count.svg)](https://u8views.com/github/viktor-svirsky)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=viktor-svirsky&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true)
