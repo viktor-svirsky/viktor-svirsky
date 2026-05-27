@@ -1,0 +1,83 @@
+name: Update profile README
+
+on:
+  schedule:
+    - cron: "17 6 * * *"  # daily 06:17 UTC, ~02:17 NYC
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/update-profile.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate FEATURED_PROJECTS section
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = 'README.md';
+
+            // Hand-curated descriptions keyed by repo name. Fall back to GitHub `description`.
+            const descriptions = {
+              "todoist-ai-agent":
+                "Autonomous Claude agent that monitors Todoist tasks labeled `AI` and acts on them. TypeScript.",
+              "swagger2locustio":
+                "Generate `locustfile.py` load-test scripts from OpenAPI / Swagger specs. Python · [PyPI](https://pypi.org/project/swagger2locustio/).",
+              "ai_orchestrator":
+                "Multi-provider AI CLI (Ollama / Claude / Gemini) with parallel queries, smart verification, autonomous Plan→Code→Test→Review pipelines, and checkpoint/resume. Python.",
+            };
+
+            // Pull all public, non-fork repos, sort by stars desc, keep stars >= 1.
+            const repos = await github.paginate(github.rest.repos.listForUser, {
+              username: context.repo.owner,
+              type: 'owner',
+              per_page: 100,
+            });
+            const starred = repos
+              .filter(r => !r.fork && !r.private && r.stargazers_count > 0)
+              .sort((a, b) => b.stargazers_count - a.stargazers_count);
+
+            // Build markdown table.
+            const lines = [
+              "| Project | ⭐ | What it does |",
+              "|---|---:|---|",
+            ];
+            for (const r of starred) {
+              const desc = descriptions[r.name] || (r.description ?? "—");
+              lines.push(`| [**${r.name}**](${r.html_url}) | ${r.stargazers_count} | ${desc} |`);
+            }
+            const block = lines.join("\n");
+
+            // Replace between markers.
+            const md = fs.readFileSync(path, 'utf8');
+            const re = /(<!-- FEATURED_PROJECTS:start -->)[\s\S]*?(<!-- FEATURED_PROJECTS:end -->)/;
+            if (!re.test(md)) {
+              core.setFailed("FEATURED_PROJECTS markers not found in README.md");
+              return;
+            }
+            const next = md.replace(re, `$1\n${block}\n$2`);
+            if (next === md) {
+              core.info("No changes to FEATURED_PROJECTS section.");
+              return;
+            }
+            fs.writeFileSync(path, next);
+            core.info("FEATURED_PROJECTS section updated.");
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git commit README.md -m "chore: auto-update featured projects table"
+            git push
+          else
+            echo "No README changes — nothing to commit."
+          fi
