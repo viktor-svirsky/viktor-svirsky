@@ -37,14 +37,4 @@ Principal engineer in NYC. AI-flavored CLI tools on the side.
 
 ---
 
-### 📊 At a glance
-
-<p align="left">
-  <a href="https://github.com/viktor-svirsky?tab=repositories"><img alt="Public repos" src="https://img.shields.io/badge/dynamic/json?style=flat-square&label=repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fviktor-svirsky&color=1f6feb"></a>
-  <a href="https://github.com/viktor-svirsky?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/viktor-svirsky?style=flat-square&label=followers&color=1f6feb"></a>
-  <a href="https://github.com/viktor-svirsky/todoist-ai-agent"><img alt="todoist-ai-agent stars" src="https://img.shields.io/github/stars/viktor-svirsky/todoist-ai-agent?style=flat-square&label=todoist-ai-agent&color=f5b400"></a>
-  <a href="https://github.com/viktor-svirsky/swagger2locustio"><img alt="swagger2locustio stars" src="https://img.shields.io/github/stars/viktor-svirsky/swagger2locustio?style=flat-square&label=swagger2locustio&color=f5b400"></a>
-  <a href="https://github.com/viktor-svirsky/ai_orchestrator"><img alt="ai_orchestrator stars" src="https://img.shields.io/github/stars/viktor-svirsky/ai_orchestrator?style=flat-square&label=ai_orchestrator&color=f5b400"></a>
-</p>
-
 <sub>⌨️ Zed + Claude Code</sub>
