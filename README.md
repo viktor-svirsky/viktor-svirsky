@@ -37,4 +37,4 @@ Principal engineer in NYC. AI-flavored CLI tools on the side.
 
 ---
 
-<sub>⌨️ Zed + Claude Code · made with ❤️</sub>
+<sub>❤️ Zed + Claude Code</sub>
