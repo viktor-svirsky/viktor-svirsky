@@ -5,7 +5,7 @@
   <img alt="NYC" src="https://img.shields.io/badge/NYC-UTC--5-1f6feb?style=flat-square">
 </p>
 
-Principal engineer in NYC. Mostly Python, Go, TypeScript, and Swift these days. AI-flavored CLI tools on the side.
+Principal engineer in NYC. AI-flavored CLI tools on the side.
 
 ---
 
@@ -47,4 +47,4 @@ Principal engineer in NYC. Mostly Python, Go, TypeScript, and Swift these days. 
   <a href="https://github.com/viktor-svirsky/ai_orchestrator"><img alt="ai_orchestrator stars" src="https://img.shields.io/github/stars/viktor-svirsky/ai_orchestrator?style=flat-square&label=ai_orchestrator&color=f5b400"></a>
 </p>
 
-<sub>📍 NYC · ⌨️ Zed + Claude Code · ☕️ Mostly Python, Go, TypeScript these days</sub>
+<sub>⌨️ Zed + Claude Code</sub>
