@@ -37,4 +37,10 @@ Principal engineer in NYC. AI-flavored CLI tools on the side.
 
 ---
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/viktor-svirsky/viktor-svirsky/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/viktor-svirsky/viktor-svirsky/output/github-snake.svg">
+  <img alt="Snake animation eating my contribution graph" src="https://raw.githubusercontent.com/viktor-svirsky/viktor-svirsky/output/github-snake.svg">
+</picture>
+
 <sub>❤️ Zed + Claude Code</sub>
