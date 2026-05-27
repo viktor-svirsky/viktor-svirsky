@@ -37,15 +37,14 @@ Principal engineer in NYC. Mostly Python, Go, TypeScript, and Swift these days. 
 
 ---
 
-### 📊 Stats
+### 📊 At a glance
 
 <p align="left">
-  <a href="https://github.com/viktor-svirsky">
-    <img height="155" src="https://github-readme-stats.vercel.app/api?username=viktor-svirsky&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=transparent">
-  </a>
-  <a href="https://github.com/viktor-svirsky">
-    <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viktor-svirsky&layout=compact&hide_border=true&langs_count=8&theme=transparent">
-  </a>
+  <a href="https://github.com/viktor-svirsky?tab=repositories"><img alt="Public repos" src="https://img.shields.io/badge/dynamic/json?style=flat-square&label=repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fviktor-svirsky&color=1f6feb"></a>
+  <a href="https://github.com/viktor-svirsky?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/viktor-svirsky?style=flat-square&label=followers&color=1f6feb"></a>
+  <a href="https://github.com/viktor-svirsky/todoist-ai-agent"><img alt="todoist-ai-agent stars" src="https://img.shields.io/github/stars/viktor-svirsky/todoist-ai-agent?style=flat-square&label=todoist-ai-agent&color=f5b400"></a>
+  <a href="https://github.com/viktor-svirsky/swagger2locustio"><img alt="swagger2locustio stars" src="https://img.shields.io/github/stars/viktor-svirsky/swagger2locustio?style=flat-square&label=swagger2locustio&color=f5b400"></a>
+  <a href="https://github.com/viktor-svirsky/ai_orchestrator"><img alt="ai_orchestrator stars" src="https://img.shields.io/github/stars/viktor-svirsky/ai_orchestrator?style=flat-square&label=ai_orchestrator&color=f5b400"></a>
 </p>
 
-<sub>📍 NYC · ⌨️ Helix + Claude Code · ☕️ Mostly Go, TS, Swift these days</sub>
+<sub>📍 NYC · ⌨️ Zed + Claude Code · ☕️ Mostly Python, Go, TypeScript these days</sub>
