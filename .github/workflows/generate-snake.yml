@@ -2,7 +2,7 @@ name: Generate snake animation
 
 on:
   schedule:
-    - cron: "37 */12 * * *"  # twice a day, off-peak minute
+    - cron: "37 2 * * *"  # once daily, off-peak — contribution graph changes at most once/day
   workflow_dispatch: {}
   push:
     branches: [main]
