@@ -3,6 +3,7 @@
 <p align="left">
   <a href="https://github.com/viktor-svirsky?tab=repositories"><img alt="Repos" src="https://img.shields.io/badge/repos-public-blue?style=flat-square&logo=github"></a>
   <img alt="NYC" src="https://img.shields.io/badge/NYC-UTC--5-1f6feb?style=flat-square">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=viktor-svirsky&style=flat-square&color=1f6feb&label=profile+views">
 </p>
 
 Principal engineer in NYC. AI-flavored CLI tools on the side.
