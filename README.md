@@ -38,15 +38,6 @@ Principal engineer in NYC. AI-flavored CLI tools on the side.
 
 ---
 
-### 📊 GitHub stats
-
-<p align="left">
-  <img height="165" alt="Viktor's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=viktor-svirsky&show_icons=true&include_all_commits=true&hide_border=true&title_color=1f6feb&icon_color=1f6feb">
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viktor-svirsky&layout=compact&langs_count=8&hide_border=true&title_color=1f6feb">
-</p>
-
----
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/viktor-svirsky/viktor-svirsky/output/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/viktor-svirsky/viktor-svirsky/output/github-snake.svg">
