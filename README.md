@@ -29,7 +29,7 @@ Principal engineer in NYC. AI-flavored CLI tools on the side.
 <!-- FEATURED_PROJECTS:start -->
 | Project | ⭐ | What it does |
 |---|---:|---|
-| [**todoist-ai-agent**](https://github.com/viktor-svirsky/todoist-ai-agent) | 20 | Autonomous Claude agent that monitors Todoist tasks labeled `AI` and acts on them. TypeScript. |
+| [**todoist-ai-agent**](https://github.com/viktor-svirsky/todoist-ai-agent) | 21 | Autonomous Claude agent that monitors Todoist tasks labeled `AI` and acts on them. TypeScript. |
 | [**swagger2locustio**](https://github.com/viktor-svirsky/swagger2locustio) | 8 | Generate `locustfile.py` load-test scripts from OpenAPI / Swagger specs. Python · [PyPI](https://pypi.org/project/swagger2locustio/). |
 | [**ai_orchestrator**](https://github.com/viktor-svirsky/ai_orchestrator) | 1 | Multi-provider AI CLI (Ollama / Claude / Gemini) with parallel queries, smart verification, autonomous Plan→Code→Test→Review pipelines, and checkpoint/resume. Python. |
 <!-- FEATURED_PROJECTS:end -->
