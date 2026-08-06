@@ -1,4 +1,4 @@
-<h1 align="left">Hi, I'm Victor 👋</h1>
+<h1 align="left">Hi, I'm Viktor 👋</h1>
 
 <p align="left">
   <a href="https://github.com/viktor-svirsky?tab=repositories"><img alt="Repos" src="https://img.shields.io/badge/repos-public-blue?style=flat-square&logo=github"></a>
