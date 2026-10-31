@@ -28,7 +28,7 @@ Principal engineer in NYC. iOS apps, Go and AI tools on the side.
 <!-- FEATURED_PROJECTS:start -->
 | Project | ⭐ | What it does |
 |---|---:|---|
-| [**tether**](https://github.com/viktor-svirsky/tether) | 23 | Share your iPhone's internet with an iPad, Mac or travel router over WireGuard, even when your plan blocks hotspot |
+| [**tether**](https://github.com/viktor-svirsky/tether) | 30 | Share your iPhone's internet with an iPad, Mac or travel router over WireGuard, even when your plan blocks hotspot |
 | [**todoist-ai-agent**](https://github.com/viktor-svirsky/todoist-ai-agent) | 22 | Autonomous Claude agent that monitors Todoist tasks labeled `AI` and acts on them. TypeScript. |
 | [**swagger2locustio**](https://github.com/viktor-svirsky/swagger2locustio) | 8 | Generate `locustfile.py` load-test scripts from OpenAPI / Swagger specs. Python · [PyPI](https://pypi.org/project/swagger2locustio/). |
 | [**ai_orchestrator**](https://github.com/viktor-svirsky/ai_orchestrator) | 1 | Multi-provider AI CLI (Ollama / Claude / Gemini) with parallel queries, smart verification, autonomous Plan→Code→Test→Review pipelines, and checkpoint/resume. Python. |
